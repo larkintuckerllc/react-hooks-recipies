@@ -1,4 +1,8 @@
 import React from 'react';
+import Callback from './components/Callback';
+import CallbackHook from './components/CallbackHook';
+import State from './components/State';
+import StateHook from './components/StateHook';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +22,10 @@ function App() {
         >
           Learn React
         </a>
+        <Callback />
+        <CallbackHook />
+        <State />
+        <StateHook />
       </header>
     </div>
   );
