@@ -2,15 +2,19 @@ import React, { useCallback, useState } from 'react';
 
 const StateHook = () => {
   const [value, setValue] = useState(0);
-  const handleClick = useCallback(() => {
-    setValue(value + 1);
-  }, [setValue, value]);
+  const handleIncrementClick = useCallback(() => {
+    setValue(value => value + 1);
+  }, [setValue]);
+  const handleResetClick = useCallback(() => {
+    setValue(0);
+  }, [setValue]);
 
   return (
     <div>
       <h3>State Hook</h3>
       <div>{value}</div>
-      <button onClick={handleClick}>Click Me</button>
+      <button onClick={handleIncrementClick}>Increment</button>
+      <button onClick={handleResetClick}>Reset</button>
     </div>
   );
 }
