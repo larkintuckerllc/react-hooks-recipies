@@ -1,6 +1,8 @@
 import React from 'react';
 import Callback from './components/Callback';
 import CallbackHook from './components/CallbackHook';
+import Effect from './components/Effect';
+import EffectHook from './components/EffectHook';
 import State from './components/State';
 import StateHook from './components/StateHook';
 import logo from './logo.svg';
@@ -26,6 +28,8 @@ function App() {
         <CallbackHook />
         <State />
         <StateHook />
+        <Effect />
+        <EffectHook />
       </header>
     </div>
   );

@@ -5,13 +5,13 @@ const StateHook = () => {
   const [value2, setValue2] = useState(0);
   const handleIncrementClick = useCallback(() => {
     setValue(prev => prev + 1);
-  }, [setValue]);
+  }, []);
   const handleIncrement2Click = useCallback(() => {
     setValue2(prev => prev + 1);
-  }, [setValue2]);
+  }, []);
   const handleResetClick = useCallback(() => {
     setValue(0);
-  }, [setValue]);
+  }, []);
 
   return (
     <div>
