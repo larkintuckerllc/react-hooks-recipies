@@ -2,6 +2,8 @@ import React from 'react';
 import Callback from './components/Callback';
 import CallbackHook from './components/CallbackHook';
 import Effect from './components/Effect';
+import Effect2 from './components/Effect2';
+import Effect2Hook from './components/Effect2Hook';
 import EffectHook from './components/EffectHook';
 import State from './components/State';
 import StateHook from './components/StateHook';
@@ -30,6 +32,8 @@ function App() {
         <StateHook />
         <Effect />
         <EffectHook />
+        <Effect2 />
+        <Effect2Hook />
       </header>
     </div>
   );
