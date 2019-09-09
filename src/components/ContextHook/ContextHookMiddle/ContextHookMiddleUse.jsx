@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../';
 
-const ContextMiddleUse = () =>  {
+const ContextHookMiddleUse = () =>  {
   const value = useContext(ThemeContext);
 
   return (
@@ -15,4 +15,4 @@ const ContextMiddleUse = () =>  {
   );
 };
 
-export default ContextMiddleUse;
+export default ContextHookMiddleUse;
