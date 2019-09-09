@@ -2,6 +2,7 @@ import React from 'react';
 import Callback from './components/Callback';
 import CallbackHook from './components/CallbackHook';
 import Context from './components/Context';
+import ContextHook from './components/ContextHook';
 import Effect from './components/Effect';
 import Effect2 from './components/Effect2';
 import Effect2Hook from './components/Effect2Hook';
@@ -36,6 +37,7 @@ function App() {
         <Effect2 />
         <Effect2Hook />
         <Context />
+        <ContextHook />
       </header>
     </div>
   );
