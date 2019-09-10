@@ -43,7 +43,7 @@ export default class Memo extends Component {
         title: 'A Title',
       };
       return ({
-        byId: {...prevById, [id]: thing},
+        byId: { ...prevById, [id]: thing },
         ids: [...prevIds, id],
       });
     });
