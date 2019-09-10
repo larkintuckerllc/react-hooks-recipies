@@ -7,6 +7,8 @@ import Effect from './components/Effect';
 import Effect2 from './components/Effect2';
 import Effect2Hook from './components/Effect2Hook';
 import EffectHook from './components/EffectHook';
+import Ref from './components/Ref';
+import RefHook from './components/RefHook';
 import State from './components/State';
 import StateHook from './components/StateHook';
 import logo from './logo.svg';
@@ -38,6 +40,8 @@ function App() {
         <Effect2Hook />
         <Context />
         <ContextHook />
+        <Ref />
+        <RefHook />
       </header>
     </div>
   );
