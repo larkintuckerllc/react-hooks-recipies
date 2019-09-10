@@ -7,6 +7,7 @@ import Effect from './components/Effect';
 import Effect2 from './components/Effect2';
 import Effect2Hook from './components/Effect2Hook';
 import EffectHook from './components/EffectHook';
+import Memo from './components/Memo';
 import Ref from './components/Ref';
 import Ref2 from './components/Ref2';
 import RefHook from './components/RefHook';
@@ -46,6 +47,7 @@ function App() {
         <RefHook />
         <Ref2 />
         <Ref2Hook />
+        <Memo />
       </header>
     </div>
   );

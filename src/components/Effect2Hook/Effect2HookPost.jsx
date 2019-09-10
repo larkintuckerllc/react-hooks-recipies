@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { useEffect, useState } from 'react';
 
 const API = 'https://jsonplaceholder.typicode.com/posts';
@@ -34,6 +35,10 @@ const Effect2HookPost = ({ id }) => {
   return (
     <div>{post.title}</div>
   );
-}
+};
+
+Effect2HookPost.propTypes = {
+  id: PropTypes.string.isRequired,
+};
 
 export default Effect2HookPost;

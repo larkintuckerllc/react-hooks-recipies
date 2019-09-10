@@ -1,8 +1,13 @@
+import PropTypes from 'prop-types';
 import React, { Component }  from 'react';
 
 const API = 'https://jsonplaceholder.typicode.com/posts';
 
 export default class Effect extends Component {
+  static propTypes = {
+    id: PropTypes.string.isRequired, 
+  };
+
   state = {
     error: false,
     loading: true,
